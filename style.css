@@ -1,0 +1,99 @@
+.modal-content{
+	border-top: solid 29px #409fff !important;
+	border-radius: 25px !important;
+}
+
+.modal-dialog{
+	background: none !important;
+	box-shadow: none !important;
+	height: initial !important;
+	width: initial !important;
+	margin-top: 0.5rem !important;
+}
+
+.modal-body{
+	height: calc(100vh - 3rem) !important;
+	padding: 0 !important;
+}
+
+.auth-trminal{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    height: 100%;
+}
+
+.form-action{
+	padding: 20px;
+}
+
+.form-action button{
+	width: 100%;
+    background: #409fff;
+    border: 1px solid #409fff;
+    border-radius: 2em;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1em;
+    height: 2.8em;
+    outline: 0;
+    font-weight: 500;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    user-select: none;
+    line-height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner-border{
+	width: 1.5rem !important;
+	height: 1.5rem !important;
+	border-width: medium !important;
+}
+
+.auth-content{
+	padding: 20px;
+}
+
+.auth-content > .title{
+	font-size: 18px;
+	margin: 5px 0 25px 0;
+}
+
+.auth-content input{
+	width: 100%;
+    height: 51px;
+    padding-left: 10px;
+    background: #fff;
+    outline: 0;
+    border: solid 1px #0067B8 !important;
+}
+
+.form-action ul{
+	width: 100%;
+	padding: 0;
+	margin: 10px 0 0 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.form-action ul li{
+	display: inline;
+	font-size: 11px;
+	margin-left: 10px;
+}
+
+.form-action ul li:first{
+	margin-left: 0px;
+}
+
+.m-head{
+	padding: 40px 20px;
+	background: #f3f7fa;
+}
+
+.message{
+	display: none;
+}
